@@ -1,0 +1,136 @@
+Delegate:
+=========
+	- Function Pointer.
+	- Delegates are Classes and typesafe.
+
+--------------------------
+Client(Program:Main) ---> Function(Class:Calculator-->Addition) 
+Client(Program:Main) ---> Delegate ---> Function(Class:Calculator-->Addition) 
+
+
+Advantages:
+-----------
+	- Encapsulate call to a function inside of a Delegate.
+	- Can call single or multiple methods via a a delegate.
+	- Supports Event driven approach.
+	- Loose coupling between client and a function.
+	- Runtime binding.
+	- Callback functions
+
+Type of Delegates:
+------------------
+	Unicast Delegate
+	Multicast Delegate
+
+
+- Other features supported:
+---------------------------
+	- Asynchronous Delegate
+	- Anonymous Delegate
+
+Steps for working with a Delegate:
+----------------------------------
+	- Declare a Delegate
+	- Initialize a Delegate (Target: Function)
+	- Invoke a Delegate
+
+Rules:
+-------
+	- Function parameters must match with a Delegate parameters.
+	- Return type of a Function must match with a Delegate return type.
+
+
+-----------------Synchronous VS Asynchronous-----------------
+class Program
+{
+	static void Main()
+	{
+		Method_One();
+		Method_Two();	//Take 40-50 seconds for execution//Async:Background
+		Method_Three();
+	}
+	
+	static void Method_One()
+	{
+	}
+	static void Method_Two()//Time consuming method 40-50 seconds//Async
+	{
+	}
+	static void Method_Three()
+	{
+	}
+
+}
+
+
+Events:
+=======
+	- Notification/messaging.
+
+Application:
+-------------
+	- CUI
+	- GUI:
+	-------
+		Form/Windows:
+		-------------
+			- TextBox1--> Id	
+			- TextBox2--> Name
+			- TextBox3--> DesignationId
+			- TextBox4--> DepartmentId
+			- ButtonSave--> Notification(to the underlying system)--->
+				---> Save data in a db.
+
+
+Window:Button(Press a button)---> Event(Click)--->Delegate---> Function(SaveEmployee)
+
+Publisher ---> Subscriber
+Employee:Id(if id is not according to the domain requirement)---> Event(Validation)--->Delegate---> Function(Validation)
+-------------------------
+
+Banking System:
+---------------
+	RBI (Appex Bank):
+		Withdraw:
+			- if balance after withdrawal goes below 1000. then some penalty 			should levied on the account.
+		Deposit:
+			- if depositing amount greater than 500000. then some tax should 			be levied on the account.
+
+	AxisBank/HDFC/ICICI/SBI
+		Withdraw:
+			- if balance after withdrawal goes below 1000. then penalty 			of 500 will be levied on the account.
+		Deposit:
+			- if depositing amount greater than 500000. then .1%/2000 tax 				should be levied on the account.
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

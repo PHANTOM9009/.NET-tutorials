@@ -1,0 +1,44 @@
+Application:
+============
+	3 Layered Architecture:
+	-----------------------
+	Presentation Logic:
+	-------------------
+		- Console, Windows Forms, WPF, ASP.Net, ASP.Net MVC, etc.
+
+	Business Logic: (.dll/s)
+	-------------------
+		- Domain specific logic
+
+	DataAccess Logic:(.dll/s)
+	-------------------
+		- ADO.Net
+		- LINQ To SQL
+		- Entity Framework
+		- Dapper
+		- NHibernate
+
+Advantages:
+------------
+	- Reusability
+	- Less complex
+	- Extensibility
+	- Maintanability
+	- Easy to:
+		- Debug
+		- Testing
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

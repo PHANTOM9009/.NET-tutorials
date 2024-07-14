@@ -1,0 +1,48 @@
+Serialization:
+==============
+	- Save state of an object
+	- Persist state of an object
+	- Convert state of an object into an IO stream
+		- Stored in a File
+		- Stored in a Database
+		- Send this stream from one application/service to another.
+Console Application:
+---------------------
+	- Used to manage Employee details.
+	- Employee class and its object.
+
+Employee objEmp = new Employee()
+objEmp.Id 	= 101;
+objEmp.Name 	= "Vikram";
+objEmp.DesignationId	= 201;
+objEmp.DepartmentId	= 301;
+================
+
+WebService:
+-----------
+	- Are autonomous
+	- Piece of software continuously running at the server side.
+
+Web Application	---------> Server(IIS:WebServer) -----> WebService(Sales) Class:Sales--> objSales (Serialized then 											send to the client)
+
+Deserialized the data
+	Convert into an object
+------------------------
+Types:
+-------
+	- Binary Serialization:
+		- Binary format.
+	- SOAP Serialization:
+		- Simple Object Access Protocol:
+			- WebService
+	- XML Serialization:
+		- XML Format
+	- JSON Serialization:
+		- WebAPI: We use JSON format
+
+
+
+
+
+
+

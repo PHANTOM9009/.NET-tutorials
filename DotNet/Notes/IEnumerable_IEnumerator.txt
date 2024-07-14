@@ -1,0 +1,16 @@
+ArrayList: IEnumerator(MoveNext(), Reset(), Current)
+=========
+	<---Reset(),MoveNext():bool:true
+item1	<---MoveNext():bool:true, Current:item1
+item2	<---MoveNext():bool:true, Current:item2
+item3	<---MoveNext():bool:true, Current:item3
+item4	<---MoveNext():bool:false, Current:item4
+------------------------------------------------------------------------------------------------------------
+
+ArrayList: IEnumerable(GetEnumerator) returns enumerator - IEnumerator(MoveNext(), Reset(), Current)
+=========
+	<---Reset(),MoveNext():bool:true
+item1	<---MoveNext():bool:true, Current:item1
+item2	<---MoveNext():bool:true, Current:item2
+item3	<---MoveNext():bool:true, Current:item3
+item4	<---MoveNext():bool:false, Current:item4

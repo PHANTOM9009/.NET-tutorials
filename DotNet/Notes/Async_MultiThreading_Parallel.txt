@@ -1,0 +1,8 @@
+Application:
+------------
+	- Synchronous
+	- Asynchronous		: (Better user experience, can execute multiple features side by side)
+	- Multithreading	: (Time consuming functionality/processor intensive features, Performance is the main 				   goal). By default threads work under single core.
+	- Parallel Programming	: (processor intensive features, Performance is the main 				  			 goal). Introduce multiple cores.
+	
+

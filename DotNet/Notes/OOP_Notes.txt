@@ -1,0 +1,103 @@
+OOP:
+======
+	Abstraction:
+	------------
+		- Focusing on important aspects of an object and ignoring the rest.
+	Encapsulation:
+	---------------
+		- Combining data members and functionalities together. Exposing in the desired way.
+
+	Inheritance:
+	------------
+		- Parent and Child relationship.
+	- Polymorphism:
+	----------------
+		- Poly + Morphos (Multiple forms.)
+		- Ability of different objects to  respond to the same message in different way is called as 			polymorphism.
+
+
+===============================
+Client wants us to design Console App to maintain various type of Shapes.
+
+Shape:
+----------
+	- area
+	- perimeter
+	- CalculateArea
+	- CalculatePerimeter
+
+
+Rectangle:Shape
+---------------
+	- width
+	- height
+	- area			:Shape
+	- perimeter		:Shape
+	- CalculateArea		:Shape
+	- CalculatePerimeter 	:Shape
+
+Square:Shape
+------------
+	- sides
+	- area			:Shape
+	- perimeter		:Shape
+	- CalculateArea		:Shape
+	- CalculatePerimeter	:Shape
+
+========================================
+class Shape:
+------------
+	- Data Members:
+	---------------
+		- area
+		- perimeter
+	- Methods:
+	----------
+		- CalculateArea
+		- CalculatePerimeter
+
+class Rectangle:Shape
+---------------------
+	- Data Members:
+	---------------
+		- width
+		- height
+		- area			:Shape
+		- perimeter		:Shape
+	- Methods:
+	----------
+		- CalculateArea		:Shape
+		- CalculatePerimeter 	:Shape
+
+class Square:Shape
+------------------
+	- Data Members:
+	---------------
+		- sides
+		- area			:Shape
+		- perimeter		:Shape
+	- Methods:
+	----------
+		- CalculateArea		:Shape
+		- CalculatePerimeter	:Shape
+
+------------------
+Access Modifiers
+------------------
+Public
+Private
+Internal
+Protected
+ProtectedInternal
+
+
+===========
+int Area = Length * Breadth;
+decimal perimeter = 2 * (length + width);
+	
+
+
+
+
+	
+	

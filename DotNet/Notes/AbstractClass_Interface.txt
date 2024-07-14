@@ -1,0 +1,9 @@
+Abstract Class						Interface
+=================					====================
+Can use different access modifiers			Public and Internal
+At least one member should be abstract			All the members are abstract.
+Other members can be non abstract			All the members must be abstract.
+Can use fields/variables				Can't use fields/variables
+Members can use various access modifiers		Can't write access modifiers with members
+Parent & Child relationship				There is no relationship. Just a contract.
+

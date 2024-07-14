@@ -1,0 +1,89 @@
+Collection:
+===========
+	- Array:
+	--------
+		- Disadvantages:
+			- Fixed Size
+			- Limited features/methods
+			- Same type of object/data
+
+	- Collection Framework:
+	------------------------
+		- Non-Generic:
+		--------------
+			- ArrayList:
+				- Dynamically resize
+				- Lot of features and functionalities
+				- Different type of data
+				- Index based
+			- Stack:
+				- LIFO method
+				- Push
+				- Pop
+				- Peek
+			- Queue:
+				- FIFO method
+				- Enqueue
+				- Dequeue
+				- Peek
+			- Hashtable:
+				- Stores data in a Key-Value format
+			- etc.
+		- Generic:
+		--------------
+			- List
+			- Stack
+			- Queue
+			- Dictionary
+			- etc.
+
+		- Interfaces:
+		--------------
+			- ICollection:
+				- Defines size, enumerators, and synchronization methods for all nongeneric 					collections.
+			- IList:
+				- Represents a non-generic collection of objects that can be individually accessed
+    				by index.
+				- Index based collection classes.
+			- IEnumerable:
+				-  Exposes an enumerator, which supports a simple iteration over a non-generic 						collection.
+				- IEnumerator GetEnumerator();
+				- Facilitates foreach loop.
+			- IEnumerator:
+				- Supports a simple iteration over a non-generic collection.
+				- Current
+				- MoveNext()
+				- Reset()
+			- IDictionary:
+				- Represents a nongeneric collection of key/value pairs.
+			- IDictionaryEnumerator:
+				- Enumerates the elements of a nongeneric dictionary.
+					-  DictionaryEntry Entry { get; }
+					-  object Key { get; }
+					-  object? Value { get; }
+			- DictionaryEntry: (Struct)
+				- public DictionaryEntry(object key, object? value)
+				- public object Key
+			    	- public object? Value
+
+============================
+ArrayList (IEnumerator)	
+---------
+	<--Reset():MoveNext(): True
+item1	<-- MoveNext(): True--> Current
+item2	<-- MoveNext(): True--> Current
+item3	<-- MoveNext(): True--> Current
+item4	<-- MoveNext(): True--> Current
+item5	<-- MoveNext(): False
+
+
+
+
+
+
+
+
+
+
+
+

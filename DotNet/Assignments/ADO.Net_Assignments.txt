@@ -1,0 +1,21 @@
+ADO.Net (Assignments)
+=====================
+
+1) Connected Architecture (Without Stored Procedure):
+-----------------------------------------------------
+a) Create a Console Application to maintain Product records of an organization.
+	- Provide all the CRUD features in this application.
+	- Create the following tables in the MSSQL Server database, and use in this application:
+Product:
+--------
+Id,
+Name,
+Price,
+QuantityInHand
+CategoryId
+
+Category:
+---------
+Id,
+Name
+----------------------------------------------------------

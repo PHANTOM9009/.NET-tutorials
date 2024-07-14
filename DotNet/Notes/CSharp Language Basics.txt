@@ -1,0 +1,65 @@
+CSharp Language Basics:
+========================
+Solution (File)
+-----------------------
+Project (File)
+-----------------------
+	- Structure of a Project
+	- References
+Namespace
+-----------------------
+Class:
+-----------------------
+	Functions	
+	-----------------------
+		- Statements
+		- Commenting
+	Parameters
+	Return types
+Data Type
+-----------------------
+	- Value Types
+	- Reference Types
+Conditional Statements:
+-----------------------
+	- If Else:
+		if(operation == 1)
+		if(operation == 2)
+		if(operation == 3)
+		if(operation == 4)
+
+	- Switch Case
+		switch(operation)
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+
+Looping Structure
+==================
+for(int i=0;i<10;i++)
+{
+	//Logic
+}
+-----------------------
+foreach(string strCity in strCities)
+{
+	//Logic
+}
+-----------------------
+while(true)
+{
+	//Logic
+}
+-----------------------
+do
+{
+	//Logic
+}while(true)
+-----------------------
+
+Type Casting
+=============
+etc.
+
+

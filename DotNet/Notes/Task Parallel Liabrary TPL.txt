@@ -1,0 +1,13 @@
+Task Parallel Liabrary : TPL
+============================
+Task: (Class)
+-------------
+	- Executing any functionality asynchronously
+	- It is aware of Parallel programming
+
+Parallel Programming : (Multiple Cores)
+----------------------
+Parallel : (Class)
+	- To execute any lgic/functionality on multiple cores.
+
+	

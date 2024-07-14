@@ -1,0 +1,26 @@
+SqlDataReader:
+----------------
+	- Read Only and Forward Only Format
+	- 
+
+DataSet:
+========
+	- DataTableCollection:
+		- DataTable
+		- DataTable
+		- DataTable:
+			- DataRowCollection:
+				- DataRow
+				- DataRow
+				- DataRow
+			- DataColumnCollection:
+				- DataColumn
+				- DataColumn
+				- DataColumn
+			- ConstraintCollection:
+				- Constraint
+				- Constraint
+		- DataRelationCollection:
+			- DataRelation
+			- DataRelation
+			- DataRelation

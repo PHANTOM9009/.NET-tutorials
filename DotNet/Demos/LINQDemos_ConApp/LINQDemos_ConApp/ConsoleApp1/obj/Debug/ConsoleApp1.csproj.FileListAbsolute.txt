@@ -1,0 +1,14 @@
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+F:\Trainings\Training_X\CapG_.Net_OL_Batch-28-06-21\LINQ\Demos\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Trainnings\Synechron\LINQDemos_ConApp\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

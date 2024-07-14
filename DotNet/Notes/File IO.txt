@@ -1,0 +1,19 @@
+File IO:
+========
+	- FileStream
+	- File		(Static Class)
+	- FileInfo	(Instance Class)
+	- Directory	(Static Class)
+	- DirectoryInfo (Instance Class)
+	- Path		
+	- Stream:
+	---------
+		- StreamReader
+		- StreamWriter
+		- BinaryReader
+		- BinaryWriter
+		- StringReader
+		- StringWriter
+	- MemoryStream
+	- GZipStream
+	- etc.

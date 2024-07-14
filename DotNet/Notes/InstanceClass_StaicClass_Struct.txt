@@ -1,0 +1,42 @@
+Instance Class					Static Class
+=================				=================
+Instantiate an object of this class.		Can't instantiate a static class.
+						Automatically memory is allocated to this class.
+Multiple objects of this class can be created.	Single instance/address is given to this class.
+Can have instance members and static members.	Can have only static members.
+Ex. Multiple objects of Employee,Customer, etc. Common features and functionalities.
+						Ex. Console, File, Directory, Database,
+
+
+-------------------------------------------------------------------------------------------------
+Abstract Class						Interface
+=================					====================
+Can use different access modifiers			Public and Internal
+At least one member should be abstract			All the members are abstract.
+Other members can be non abstract			All the members must be abstract.
+Can use fields/variables				Can't use fields/variables
+Members can use various access modifiers		Can't write access modifiers with members
+Parent & Child relationship				There is no relationship. Just a contract.
+-------------------------------------------------------------------------------------------------
+Struct:							Class
+======							========
+- User defined data type.				- User defined data type.
+- Value Type						- Reference Type
+- Can use Abstraction and Encapsulation			- We can use all the major pillars of OOP
+- Can't use Inheritance and pure polymorphism
+- Explicit Constructor must be parameterized		- Explicit Constructor can be parameterized or non							 parameterized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

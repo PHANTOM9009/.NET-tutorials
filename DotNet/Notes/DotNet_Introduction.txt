@@ -1,0 +1,105 @@
+Dot Net Technology:
+===================
+	- OOP
+	- Multiple Language Support:
+		- C#, VB.Net, F#, etc.
+	- Language Interoperability:
+	- COM Interoperability: (Component Object Model)
+	- Automatic Memory Management:
+		- GC
+	- Collections, Delegates and Events, FileIO, Serialization, Threading, XML, Async Features, etc.
+	- Data Access:
+		- ADO.Net
+		- LINQ To SQL (ORM: Object Relational Mapping)
+		- Entity Framework (ORM: Object Relational Mapping)
+		- NHibernate
+		- Dapper (Micro ORM)
+
+	- .Net Framework 3.0:
+	----------------------
+		- Windows Presentation Foundation (WPF):
+			- Designing rich graphical application. Which support 2D, 3D graphics, animations and 					effects.
+		- Windows Communication Foundation (WCF):
+			- Service:
+			----------
+				- COM+ and DCOM service
+				- Windows service
+				- Web service
+				- Remoting service
+				- RESTFul service
+				- etc.
+
+		- Windows Workflow Foundation (WF)
+		- Windows CardSpace (Infocard)
+
+	- .Net Framework 3.5(SP1)
+	-------------------------
+		- LINQ
+		- Entity Framework
+
+
+	- Application:
+		- Windows:
+			- CUI:
+				- Console Application
+			- GUI:
+				- Windows Forms, WPF
+		- Web Application:
+			- ASP.Net, ASP.Net MVC, ASP.Net Core,  ASP.Net Core MVC.
+		- Mobile Apps:
+			- Android
+			- IOS
+			- etc.
+	- Services:
+	------------
+		- COM+ and DCOM service
+		- Windows service
+		- Web service
+		- Remoting service
+		- RESTFul service
+		- WebAPI
+
+
+	- .Net Framework 4.0
+	---------------------
+		- TPL, Parallel Programming
+		- Dynamic Programming
+
+	- Integration:
+	--------------
+		- MS Office
+		- IIS
+		- Dynamic CRM
+		- MS Sharepoint Server
+		- etc.
+
+	- Azure Cloud Computing:
+	------------------------
+
+	- Dot Net CORE
+	===============
+		- Platform Independent						
+		- Suppport for various type of application and services.					
+		- IOT
+		- etc.
+	- Support for Database MSSQL Server
+	- etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
